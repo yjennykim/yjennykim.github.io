@@ -1,16 +1,37 @@
+@font-face {
+  font-family: "Iosevka", monospace;
+  src: url("fonts/Iosevka.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.75;
+}
+
+body {
+  font-family: "Iosevka", monospace;
+  font-weight: 400;
+  letter-spacing: 0.5px; /* optional, adjust to match site */
+}
+
+.pad {
+  margin: 5.5em 0em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Playfair Display", serif;
 }
 
 p, ul {
-    font-size: small;
+    font-size: 1em;
 }
 
 .bio-icons a {
-    font-size: 14px;
+    font-size: 1.1em;
     color: #333 !important;
     text-decoration: none;
 }
@@ -38,9 +59,8 @@ body {
 }
 
 .container {
-    width: 40em;
-    max-width: 100%;
-    padding: 3rem;
+    max-width: 56rem;
+    padding: 4rem 4rem 6rem;
 }
 
 nav {
